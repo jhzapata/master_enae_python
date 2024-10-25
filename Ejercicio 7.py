@@ -1,4 +1,6 @@
-#Calcula el septuagésimo tercer (73º) número primo.
+# Sube a un repositorio de git hub un programa que encuentre un intervalo que
+# tenga 73 números no primos seguidos y compártelo a través de su link en Git Hub.
+
 
 import numpy as np
 
@@ -11,13 +13,12 @@ def nosoyprimo(x):
     return False
     
 count = 0
-primo = 1
-list_primos = []
+Noprimo = 1
+list_Noprimos = []
 while count < 73:
-    primo += 1
-    if nosoyprimo(primo):
-        list_primos.append(primo)
+    Noprimo += 1
+    if nosoyprimo(Noprimo):
+        list_Noprimos.append(Noprimo)
         count += 1
-
-
-print(list_primos)
+ 
+print( list_Noprimos)
