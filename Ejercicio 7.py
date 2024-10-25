@@ -21,4 +21,4 @@ while count < 73:
         list_Noprimos.append(Noprimo)
         count += 1
  
-print( list_Noprimos)
+print( list_Noprimos[0],list_Noprimos[-1])
